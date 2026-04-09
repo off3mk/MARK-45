@@ -1,0 +1,343 @@
+2026-03-18 11:12:41,549 [MARK45.Main] INFO: ============================================================
+2026-03-18 11:12:41,550 [MARK45.Main] INFO:   MARK 45 — Hive Kernel — Iniciando
+2026-03-18 11:12:41,550 [MARK45.Main] INFO:   Ryzen 7 5800X | 32GB | RTX 4060 Ti 8GB | Win11
+2026-03-18 11:12:41,551 [MARK45.Main] INFO:   Creado por Ali (Sidi3Ali)
+2026-03-18 11:12:41,551 [MARK45.Main] INFO: ============================================================
+2026-03-18 11:12:41,662 [MARK45.GUI] INFO: Iniciando Orchestrator...
+2026-03-18 11:12:41,663 [MARK45] INFO: ============================================================
+2026-03-18 11:12:41,663 [MARK45] INFO:   M A R K  4 5  — Hive Kernel
+2026-03-18 11:12:41,663 [MARK45] INFO:   Creado por Ali (Sidi3Ali)
+2026-03-18 11:12:41,664 [MARK45] INFO:   HW: Ryzen 7 5800X | 32GB | RTX 4060 Ti 8GB | Win11
+2026-03-18 11:12:41,664 [MARK45] INFO: ============================================================
+2026-03-18 11:13:02,446 [openai._base_client] INFO: Retrying request to /models in 0.481597 seconds
+2026-03-18 11:13:06,972 [openai._base_client] INFO: Retrying request to /models in 0.925529 seconds
+2026-03-18 11:13:17,055 [MARK45.LLM] WARNING: ⚠ Sin LLM disponible. Inicia LM Studio u Ollama.
+2026-03-18 11:13:17,086 [MARK45] INFO: ✓ LLM Engine (ninguno)
+2026-03-18 11:13:17,124 [MARK45.Memory] INFO: ✓ Memoria cargada — 0 entradas en historial
+2026-03-18 11:13:17,133 [MARK45] INFO: ✓ Memoria persistente
+2026-03-18 11:13:17,283 [MARK45.Monitor] INFO: ✓ psutil disponible
+2026-03-18 11:13:17,352 [MARK45] INFO: ✓ Monitor del sistema
+2026-03-18 11:13:18,980 [MARK45.Voice] INFO: ✓ Edge TTS disponible (es-ES-AlvaroNeural)
+2026-03-18 11:13:19,293 [MARK45.Voice] INFO: ✓ STT disponible (speech_recognition)
+2026-03-18 11:13:19,295 [MARK45.Voice] INFO: VoiceSystem listo — TTS: edge-tts | STT: ✓
+2026-03-18 11:13:19,295 [MARK45] INFO: ✓ Sistema de voz
+2026-03-18 11:13:19,409 [MARK45] INFO: ✓ IntentEngine (LLM + rapidfuzz)
+2026-03-18 11:13:19,420 [MARK45] INFO: ✓ Dispatcher
+2026-03-18 11:13:19,422 [MARK45.Voice] INFO: 🎙 Wake word daemon activo — escuchando 'Jarvis'
+2026-03-18 11:13:19,422 [MARK45] INFO: ✓ Wake word daemon (Jarvis)
+2026-03-18 11:13:19,423 [MARK45] INFO: ------------------------------------------------------------
+2026-03-18 11:13:19,423 [MARK45] INFO:   Usuario:  Señor (Creador)
+2026-03-18 11:13:19,423 [MARK45] INFO:   LLM:      ninguno
+2026-03-18 11:13:19,423 [MARK45] INFO:   Voz TTS:  ✓ edge-tts
+2026-03-18 11:13:19,423 [MARK45] INFO:   Voz STT:  ✓
+2026-03-18 11:13:19,424 [MARK45] INFO:   WakeWord: ✓ Jarvis
+2026-03-18 11:13:19,424 [MARK45] INFO:   Monitor:  ✓
+2026-03-18 11:13:19,424 [MARK45] INFO: ------------------------------------------------------------
+2026-03-18 11:13:19,425 [MARK45.GUI] INFO: Iniciando interfaz gráfica...
+2026-03-18 11:13:28,386 [MARK45] INFO: CMD: 'hola'
+2026-03-18 11:13:29,077 [MARK45] INFO: Intent: ai.chat (50%) — conversación general
+2026-03-18 11:13:49,906 [MARK45] INFO: CMD: 'GET http://localhost:8765/estado'
+2026-03-18 11:13:49,909 [MARK45] INFO: Intent: ai.chat (50%) — conversación general
+2026-03-18 11:14:30,069 [MARK45.Voice] INFO: Wake word daemon desactivado.
+2026-03-18 11:14:34,211 [MARK45.Voice] INFO: Wake word daemon activado.
+2026-03-18 11:14:45,811 [MARK45.Voice] INFO: ✓ Wake word detectado: 'jarvis'
+2026-03-18 11:15:08,615 [MARK45.Voice] INFO: ✓ Wake word detectado: 'jarvis'
+2026-03-18 11:15:35,671 [MARK45.Voice] INFO: ✓ Wake word detectado: 'jarvis'
+2026-03-18 11:16:19,225 [MARK45.Voice] INFO: ✓ Wake word detectado: 'jarvis'
+2026-03-18 11:16:27,079 [MARK45.Voice] INFO: ✓ Wake word detectado: 'jarvis'
+2026-03-18 11:16:48,975 [MARK45.Voice] INFO: ✓ Wake word detectado: 'jarvis'
+2026-03-18 11:17:03,954 [MARK45.Voice] INFO: ✓ Wake word detectado: 'jarvis'
+2026-03-18 11:18:17,401 [MARK45.Voice] INFO: ✓ Wake word detectado: 'jarvis estado del sistema'
+2026-03-18 11:18:26,877 [MARK45.Voice] INFO: ✓ Wake word detectado: 'jarvis estado del sistema'
+2026-03-18 11:18:28,756 [MARK45.Main] INFO: ============================================================
+2026-03-18 11:18:28,757 [MARK45.Main] INFO:   MARK 45 — Hive Kernel — Iniciando
+2026-03-18 11:18:28,759 [MARK45.Main] INFO:   Ryzen 7 5800X | 32GB | RTX 4060 Ti 8GB | Win11
+2026-03-18 11:18:28,760 [MARK45.Main] INFO:   Creado por Ali (Sidi3Ali)
+2026-03-18 11:18:28,760 [MARK45.Main] INFO: ============================================================
+2026-03-18 11:18:31,121 [MARK45.Web] INFO: Iniciando Orchestrator (modo headless)...
+2026-03-18 11:18:31,122 [MARK45] INFO: ============================================================
+2026-03-18 11:18:31,122 [MARK45] INFO:   M A R K  4 5  — Hive Kernel
+2026-03-18 11:18:31,122 [MARK45] INFO:   Creado por Ali (Sidi3Ali)
+2026-03-18 11:18:31,123 [MARK45] INFO:   HW: Ryzen 7 5800X | 32GB | RTX 4060 Ti 8GB | Win11
+2026-03-18 11:18:31,123 [MARK45] INFO: ============================================================
+2026-03-18 11:18:34,279 [MARK45.Voice] INFO: ✓ Wake word detectado: 'jarvis estado'
+2026-03-18 11:18:38,584 [openai._base_client] INFO: Retrying request to /models in 0.484147 seconds
+2026-03-18 11:18:43,157 [openai._base_client] INFO: Retrying request to /models in 0.995783 seconds
+2026-03-18 11:18:52,467 [MARK45.LLM] WARNING: ⚠ Sin LLM disponible. Inicia LM Studio u Ollama.
+2026-03-18 11:18:52,467 [MARK45] INFO: ✓ LLM Engine (ninguno)
+2026-03-18 11:18:52,473 [MARK45.Memory] INFO: ✓ Memoria cargada — 4 entradas en historial
+2026-03-18 11:18:52,474 [MARK45] INFO: ✓ Memoria persistente
+2026-03-18 11:18:52,510 [MARK45.Monitor] INFO: ✓ psutil disponible
+2026-03-18 11:18:52,529 [MARK45] INFO: ✓ Monitor del sistema
+2026-03-18 11:18:52,802 [MARK45.Voice] INFO: ✓ Edge TTS disponible (es-ES-AlvaroNeural)
+2026-03-18 11:18:52,840 [MARK45.Voice] INFO: ✓ STT disponible (speech_recognition)
+2026-03-18 11:18:52,841 [MARK45.Voice] INFO: VoiceSystem listo — TTS: edge-tts | STT: ✓
+2026-03-18 11:18:52,841 [MARK45] INFO: ✓ Sistema de voz
+2026-03-18 11:18:52,854 [MARK45] INFO: ✓ IntentEngine (LLM + rapidfuzz)
+2026-03-18 11:18:52,857 [MARK45] INFO: ✓ Dispatcher
+2026-03-18 11:18:52,858 [MARK45.Voice] INFO: 🎙 Wake word daemon activo — escuchando 'Jarvis'
+2026-03-18 11:18:52,858 [MARK45] INFO: ✓ Wake word daemon (Jarvis)
+2026-03-18 11:18:52,858 [MARK45] INFO: ------------------------------------------------------------
+2026-03-18 11:18:52,859 [MARK45] INFO:   Usuario:  Señor (Creador)
+2026-03-18 11:18:52,859 [MARK45] INFO:   LLM:      ninguno
+2026-03-18 11:18:52,859 [MARK45] INFO:   Voz TTS:  ✓ edge-tts
+2026-03-18 11:18:52,859 [MARK45] INFO:   Voz STT:  ✓
+2026-03-18 11:18:52,859 [MARK45] INFO:   WakeWord: ✓ Jarvis
+2026-03-18 11:18:52,860 [MARK45] INFO:   Monitor:  ✓
+2026-03-18 11:18:52,860 [MARK45] INFO: ------------------------------------------------------------
+2026-03-18 11:18:52,863 [MARK45.Web] INFO: 🚀 Hive Kernel + API arrancando...
+2026-03-18 11:18:56,523 [MARK45.API] INFO: MARK 45 API activa en http://127.0.0.1:8765
+2026-03-18 11:18:56,525 [MARK45.API] INFO:   WebSocket: ws://127.0.0.1:8765/ws/eventos
+2026-03-18 11:18:56,526 [MARK45.API] INFO:   Estado:    http://127.0.0.1:8765/estado
+2026-03-18 11:18:57,347 [MARK45.API] INFO: MARK 45 API arrancada — event bus drain activo
+2026-03-18 11:18:57,348 [MARK45.API] INFO: Event bus drain activo
+2026-03-18 11:27:46,910 [MARK45.Voice] INFO: ✓ Wake word detectado: 'jarvis apágate'
+2026-03-18 11:27:47,167 [MARK45.Voice] INFO: ✓ Wake word detectado: 'jarvis apágate'
+2026-03-18 11:27:53,597 [MARK45.Voice] INFO: ✓ Wake word detectado: 'jarvis apágate'
+2026-03-18 11:27:53,646 [MARK45.Voice] INFO: ✓ Wake word detectado: 'jarvis apágate'
+2026-03-18 11:27:58,691 [MARK45.Voice] INFO: ✓ Wake word detectado: 'oye jarvis apágate'
+2026-03-18 11:27:58,928 [MARK45.Voice] INFO: ✓ Wake word detectado: 'oye jarvis apágate'
+2026-03-18 11:28:06,195 [MARK45.Voice] INFO: ✓ Wake word detectado: 'oye jarvis'
+2026-03-18 11:28:06,293 [MARK45.Voice] INFO: ✓ Wake word detectado: 'oye jarvis'
+2026-03-18 11:28:14,098 [MARK45.Voice] INFO: ✓ Wake word detectado: 'jarvis apágate'
+2026-03-18 11:28:14,576 [MARK45.Voice] INFO: ✓ Wake word detectado: 'jarvis apágate'
+2026-03-18 11:28:19,220 [MARK45.Voice] INFO: ✓ Wake word detectado: 'jarvis apágate'
+2026-03-18 11:28:28,869 [MARK45] INFO: CMD: 'apagate'
+2026-03-18 11:28:28,889 [MARK45.Intent] INFO: Intent [rapidfuzz]: mark.stop (86%)
+2026-03-18 11:28:28,890 [MARK45] INFO: Intent: mark.stop (86%) — apagate
+2026-03-18 11:28:43,324 [MARK45.Voice] INFO: Wake word daemon detenido.
+2026-03-18 11:40:10,879 [MARK45.Main] INFO: ============================================================
+2026-03-18 11:40:10,880 [MARK45.Main] INFO:   MARK 45 — Hive Kernel — Iniciando
+2026-03-18 11:40:10,880 [MARK45.Main] INFO:   Ryzen 7 5800X | 32GB | RTX 4060 Ti 8GB | Win11
+2026-03-18 11:40:10,880 [MARK45.Main] INFO:   Creado por Ali (Sidi3Ali)
+2026-03-18 11:40:10,881 [MARK45.Main] INFO: ============================================================
+2026-03-18 11:40:11,297 [MARK45.Web] INFO: Iniciando Orchestrator (modo headless)...
+2026-03-18 11:40:11,309 [MARK45] INFO: ============================================================
+2026-03-18 11:40:11,309 [MARK45] INFO:   M A R K  4 5  — Hive Kernel
+2026-03-18 11:40:11,310 [MARK45] INFO:   Creado por Ali (Sidi3Ali)
+2026-03-18 11:40:11,310 [MARK45] INFO:   HW: Ryzen 7 5800X | 32GB | RTX 4060 Ti 8GB | Win11
+2026-03-18 11:40:11,310 [MARK45] INFO: ============================================================
+2026-03-18 11:40:17,081 [openai._base_client] INFO: Retrying request to /models in 0.476728 seconds
+2026-03-18 11:40:21,630 [openai._base_client] INFO: Retrying request to /models in 0.804218 seconds
+2026-03-18 11:40:30,639 [MARK45.LLM] WARNING: ⚠ Sin LLM disponible. Inicia LM Studio u Ollama.
+2026-03-18 11:40:30,639 [MARK45] INFO: ✓ LLM Engine (ninguno)
+2026-03-18 11:40:30,645 [MARK45.Memory] INFO: ✓ Memoria cargada — 6 entradas en historial
+2026-03-18 11:40:30,646 [MARK45] INFO: ✓ Memoria persistente
+2026-03-18 11:40:30,679 [MARK45.Monitor] INFO: ✓ psutil disponible
+2026-03-18 11:40:30,695 [MARK45] INFO: ✓ Monitor del sistema
+2026-03-18 11:40:30,949 [MARK45.Voice] INFO: ✓ Edge TTS disponible (es-ES-AlvaroNeural)
+2026-03-18 11:40:30,985 [MARK45.Voice] INFO: ✓ STT disponible (speech_recognition)
+2026-03-18 11:40:30,987 [MARK45.Voice] INFO: VoiceSystem listo — TTS: edge-tts | STT: ✓
+2026-03-18 11:40:30,987 [MARK45] INFO: ✓ Sistema de voz
+2026-03-18 11:40:31,052 [MARK45.HeuristicBrain] INFO: ✓ Heuristic Brain cargado (36 patrones regex, 150 sinónimos)
+2026-03-18 11:40:31,052 [MARK45] INFO: ✓ IntentEngine (LLM + rapidfuzz)
+2026-03-18 11:40:31,055 [MARK45] INFO: ✓ Dispatcher
+2026-03-18 11:40:31,057 [MARK45.Voice] INFO: 🎙 Wake word daemon activo — escuchando 'Jarvis'
+2026-03-18 11:40:31,057 [MARK45] INFO: ✓ Wake word daemon (Jarvis)
+2026-03-18 11:40:31,058 [MARK45] INFO: ------------------------------------------------------------
+2026-03-18 11:40:31,059 [MARK45] INFO:   Usuario:  Señor (Creador)
+2026-03-18 11:40:31,059 [MARK45] INFO:   LLM:      ninguno
+2026-03-18 11:40:31,059 [MARK45] INFO:   Voz TTS:  ✓ edge-tts
+2026-03-18 11:40:31,059 [MARK45] INFO:   Voz STT:  ✓
+2026-03-18 11:40:31,060 [MARK45] INFO:   WakeWord: ✓ Jarvis
+2026-03-18 11:40:31,060 [MARK45] INFO:   Monitor:  ✓
+2026-03-18 11:40:31,060 [MARK45] INFO: ------------------------------------------------------------
+2026-03-18 11:40:31,063 [MARK45.Web] INFO: 🚀 Hive Kernel + API arrancando...
+2026-03-18 11:40:33,581 [MARK45.API] INFO: MARK 45 API activa en http://127.0.0.1:8765
+2026-03-18 11:40:33,583 [MARK45.API] INFO:   WebSocket: ws://127.0.0.1:8765/ws/eventos
+2026-03-18 11:40:33,583 [MARK45.API] INFO:   Estado:    http://127.0.0.1:8765/estado
+2026-03-18 11:40:33,730 [MARK45.API] INFO: MARK 45 API arrancada — event bus drain activo
+2026-03-18 11:40:33,730 [MARK45.API] INFO: Event bus drain activo
+2026-03-18 11:41:14,994 [MARK45.Main] INFO: ============================================================
+2026-03-18 11:41:14,994 [MARK45.Main] INFO:   MARK 45 — Hive Kernel — Iniciando
+2026-03-18 11:41:14,995 [MARK45.Main] INFO:   Ryzen 7 5800X | 32GB | RTX 4060 Ti 8GB | Win11
+2026-03-18 11:41:14,996 [MARK45.Main] INFO:   Creado por Ali (Sidi3Ali)
+2026-03-18 11:41:14,996 [MARK45.Main] INFO: ============================================================
+2026-03-18 11:41:15,021 [MARK45.GUI] INFO: Iniciando Orchestrator...
+2026-03-18 11:41:15,036 [MARK45] INFO: ============================================================
+2026-03-18 11:41:15,037 [MARK45] INFO:   M A R K  4 5  — Hive Kernel
+2026-03-18 11:41:15,037 [MARK45] INFO:   Creado por Ali (Sidi3Ali)
+2026-03-18 11:41:15,037 [MARK45] INFO:   HW: Ryzen 7 5800X | 32GB | RTX 4060 Ti 8GB | Win11
+2026-03-18 11:41:15,037 [MARK45] INFO: ============================================================
+2026-03-18 11:41:20,643 [openai._base_client] INFO: Retrying request to /models in 0.413880 seconds
+2026-03-18 11:41:25,140 [openai._base_client] INFO: Retrying request to /models in 0.986104 seconds
+2026-03-18 11:41:34,318 [MARK45.LLM] WARNING: ⚠ Sin LLM disponible. Inicia LM Studio u Ollama.
+2026-03-18 11:41:34,318 [MARK45] INFO: ✓ LLM Engine (ninguno)
+2026-03-18 11:41:34,323 [MARK45.Memory] INFO: ✓ Memoria cargada — 6 entradas en historial
+2026-03-18 11:41:34,325 [MARK45] INFO: ✓ Memoria persistente
+2026-03-18 11:41:34,353 [MARK45.Monitor] INFO: ✓ psutil disponible
+2026-03-18 11:41:34,363 [MARK45] INFO: ✓ Monitor del sistema
+2026-03-18 11:41:34,529 [MARK45.Voice] INFO: ✓ Edge TTS disponible (es-ES-AlvaroNeural)
+2026-03-18 11:41:34,550 [MARK45.Voice] INFO: ✓ STT disponible (speech_recognition)
+2026-03-18 11:41:34,552 [MARK45.Voice] INFO: VoiceSystem listo — TTS: edge-tts | STT: ✓
+2026-03-18 11:41:34,552 [MARK45] INFO: ✓ Sistema de voz
+2026-03-18 11:41:34,559 [MARK45.HeuristicBrain] INFO: ✓ Heuristic Brain cargado (36 patrones regex, 150 sinónimos)
+2026-03-18 11:41:34,559 [MARK45] INFO: ✓ IntentEngine (LLM + rapidfuzz)
+2026-03-18 11:41:34,560 [MARK45] INFO: ✓ Dispatcher
+2026-03-18 11:41:34,561 [MARK45.Voice] INFO: 🎙 Wake word daemon activo — escuchando 'Jarvis'
+2026-03-18 11:41:34,561 [MARK45] INFO: ✓ Wake word daemon (Jarvis)
+2026-03-18 11:41:34,561 [MARK45] INFO: ------------------------------------------------------------
+2026-03-18 11:41:34,562 [MARK45] INFO:   Usuario:  Señor (Creador)
+2026-03-18 11:41:34,562 [MARK45] INFO:   LLM:      ninguno
+2026-03-18 11:41:34,562 [MARK45] INFO:   Voz TTS:  ✓ edge-tts
+2026-03-18 11:41:34,562 [MARK45] INFO:   Voz STT:  ✓
+2026-03-18 11:41:34,562 [MARK45] INFO:   WakeWord: ✓ Jarvis
+2026-03-18 11:41:34,563 [MARK45] INFO:   Monitor:  ✓
+2026-03-18 11:41:34,563 [MARK45] INFO: ------------------------------------------------------------
+2026-03-18 11:41:34,563 [MARK45.GUI] INFO: Iniciando interfaz gráfica...
+2026-03-18 11:41:52,738 [MARK45.Voice] INFO: Wake word daemon desactivado.
+2026-03-18 11:41:57,339 [MARK45.Voice] INFO: Wake word daemon activado.
+2026-03-18 11:42:07,368 [MARK45.Voice] INFO: ✓ Wake word detectado: 'jarvis estado del sistema'
+2026-03-18 11:42:22,483 [MARK45.Voice] INFO: ✓ Wake word detectado: 'jarvis'
+2026-03-18 11:44:11,025 [MARK45.Voice] INFO: ✓ Wake word detectado: 'jarvis'
+2026-03-18 11:44:47,950 [MARK45] INFO: CMD: 'hola'
+2026-03-18 11:44:47,954 [MARK45] WARNING: Servidores de IA desconectados. Operando en modo táctico heurístico.
+2026-03-18 11:44:48,122 [MARK45.Intent] INFO: Intent [Brain]: ai.chat (50%) params={}
+2026-03-18 11:44:48,124 [MARK45] INFO: Intent: ai.chat (50%) — hola
+2026-03-18 11:45:07,163 [MARK45] INFO: CMD: 'que tal'
+2026-03-18 11:45:07,171 [MARK45.Intent] INFO: Intent [Brain]: ai.chat (50%) params={}
+2026-03-18 11:45:07,175 [MARK45] INFO: Intent: ai.chat (50%) — que tal
+2026-03-18 11:51:08,737 [MARK45.Main] INFO: ============================================================
+2026-03-18 11:51:08,738 [MARK45.Main] INFO:   MARK 45 — Hive Kernel — Iniciando
+2026-03-18 11:51:08,738 [MARK45.Main] INFO:   Ryzen 7 5800X | 32GB | RTX 4060 Ti 8GB | Win11
+2026-03-18 11:51:08,739 [MARK45.Main] INFO:   Creado por Ali (Sidi3Ali)
+2026-03-18 11:51:08,739 [MARK45.Main] INFO: ============================================================
+2026-03-18 11:51:09,729 [MARK45.Web] INFO: Iniciando Orchestrator (modo headless)...
+2026-03-18 11:51:09,752 [MARK45] INFO: ============================================================
+2026-03-18 11:51:09,753 [MARK45] INFO:   M A R K  4 5  — Hive Kernel
+2026-03-18 11:51:09,753 [MARK45] INFO:   Creado por Ali (Sidi3Ali)
+2026-03-18 11:51:09,754 [MARK45] INFO:   HW: Ryzen 7 5800X | 32GB | RTX 4060 Ti 8GB | Win11
+2026-03-18 11:51:09,754 [MARK45] INFO: ============================================================
+2026-03-18 11:51:16,292 [openai._base_client] INFO: Retrying request to /models in 0.414909 seconds
+2026-03-18 11:51:20,772 [openai._base_client] INFO: Retrying request to /models in 0.966581 seconds
+2026-03-18 11:51:30,015 [MARK45.LLM] WARNING: ⚠ Sin LLM disponible. Inicia LM Studio u Ollama.
+2026-03-18 11:51:30,016 [MARK45] INFO: ✓ LLM Engine (ninguno)
+2026-03-18 11:51:30,023 [MARK45.Memory] INFO: ✓ Memoria cargada — 10 entradas en historial
+2026-03-18 11:51:30,024 [MARK45] INFO: ✓ Memoria persistente
+2026-03-18 11:51:30,064 [MARK45.Monitor] INFO: ✓ psutil disponible
+2026-03-18 11:51:30,094 [MARK45] INFO: ✓ Monitor del sistema
+2026-03-18 11:51:30,476 [MARK45.Voice] INFO: ✓ Edge TTS disponible (es-ES-AlvaroNeural)
+2026-03-18 11:51:30,524 [MARK45.Voice] INFO: ✓ STT disponible (speech_recognition)
+2026-03-18 11:51:30,525 [MARK45.Voice] INFO: VoiceSystem listo — TTS: edge-tts | STT: ✓
+2026-03-18 11:51:30,526 [MARK45] INFO: ✓ Sistema de voz
+2026-03-18 11:51:30,545 [MARK45.HeuristicBrain] INFO: ✓ Heuristic Brain cargado (36 patrones regex, 150 sinónimos)
+2026-03-18 11:51:30,546 [MARK45] INFO: ✓ IntentEngine (LLM + rapidfuzz)
+2026-03-18 11:51:30,548 [MARK45] INFO: ✓ Dispatcher
+2026-03-18 11:51:30,549 [MARK45.Voice] INFO: 🎙 Wake word daemon activo — escuchando 'Jarvis'
+2026-03-18 11:51:30,550 [MARK45] INFO: ✓ Wake word daemon (Jarvis)
+2026-03-18 11:51:30,550 [MARK45] INFO: ------------------------------------------------------------
+2026-03-18 11:51:30,551 [MARK45] INFO:   Usuario:  Señor (Creador)
+2026-03-18 11:51:30,555 [MARK45] INFO:   LLM:      ninguno
+2026-03-18 11:51:30,555 [MARK45] INFO:   Voz TTS:  ✓ edge-tts
+2026-03-18 11:51:30,556 [MARK45] INFO:   Voz STT:  ✓
+2026-03-18 11:51:30,556 [MARK45] INFO:   WakeWord: ✓ Jarvis
+2026-03-18 11:51:30,557 [MARK45] INFO:   Monitor:  ✓
+2026-03-18 11:51:30,558 [MARK45] INFO: ------------------------------------------------------------
+2026-03-18 11:51:30,564 [MARK45.Web] INFO: 🚀 Hive Kernel + API arrancando...
+2026-03-18 11:51:34,961 [MARK45.API] INFO: MARK 45 API activa en http://127.0.0.1:8765
+2026-03-18 11:51:34,964 [MARK45.API] INFO:   WebSocket: ws://127.0.0.1:8765/ws/eventos
+2026-03-18 11:51:34,968 [MARK45.API] INFO:   Estado:    http://127.0.0.1:8765/estado
+2026-03-18 11:51:35,154 [MARK45.API] INFO: MARK 45 API arrancada — event bus drain activo
+2026-03-18 11:51:35,155 [MARK45.API] INFO: Event bus drain activo
+2026-03-18 11:51:47,136 [MARK45.API] INFO: WS conectado — clientes activos: 1
+2026-03-18 11:53:21,182 [MARK45.Voice] INFO: ✓ Wake word detectado: 'jarvis'
+2026-03-18 11:54:01,647 [MARK45.Voice] INFO: ✓ Wake word detectado: 'jarvis qué hora es'
+2026-03-18 12:03:09,185 [MARK45.Voice] INFO: ✓ Wake word detectado: 'jarvis'
+2026-03-18 12:03:17,722 [MARK45.Voice] INFO: ✓ Wake word detectado: 'jarvis qué hora es'
+2026-03-18 12:03:25,385 [MARK45.Voice] INFO: ✓ Wake word detectado: 'jarvis estado del sistema'
+2026-03-18 12:03:49,345 [MARK45.Voice] INFO: ✓ Wake word detectado: 'jarvis activa modo de juego'
+2026-03-18 12:07:08,187 [MARK45.API] INFO: WS CMD: 'apagat'
+2026-03-18 12:07:08,187 [MARK45] INFO: CMD: 'apagat'
+2026-03-18 12:07:08,190 [MARK45] WARNING: Servidores de IA desconectados. Operando en modo táctico heurístico.
+2026-03-18 12:07:08,308 [MARK45.Intent] INFO: Intent [Brain]: mark.stop (77%) params={}
+2026-03-18 12:07:08,309 [MARK45] INFO: Intent: mark.stop (77%) — apagat
+2026-03-18 12:07:14,513 [MARK45.API] INFO: WS desconectado — clientes activos: 0
+2026-03-18 17:28:26,733 [MARK45.Main] INFO: ============================================================
+2026-03-18 17:28:26,734 [MARK45.Main] INFO:   MARK 45 — Hive Kernel — Iniciando
+2026-03-18 17:28:26,734 [MARK45.Main] INFO:   Ryzen 7 5800X | 32GB | RTX 4060 Ti 8GB | Win11
+2026-03-18 17:28:26,734 [MARK45.Main] INFO:   Creado por Ali (Sidi3Ali)
+2026-03-18 17:28:26,734 [MARK45.Main] INFO: ============================================================
+2026-03-18 17:28:26,806 [MARK45.GUI] INFO: Iniciando Orchestrator...
+2026-03-18 17:28:26,824 [MARK45] INFO: ============================================================
+2026-03-18 17:28:26,825 [MARK45] INFO:   M A R K  4 5  — Hive Kernel
+2026-03-18 17:28:26,825 [MARK45] INFO:   Creado por Ali (Sidi3Ali)
+2026-03-18 17:28:26,825 [MARK45] INFO:   HW: Ryzen 7 5800X | 32GB | RTX 4060 Ti 8GB | Win11
+2026-03-18 17:28:26,825 [MARK45] INFO: ============================================================
+2026-03-18 17:28:33,208 [openai._base_client] INFO: Retrying request to /models in 0.438143 seconds
+2026-03-18 17:28:37,751 [openai._base_client] INFO: Retrying request to /models in 0.828626 seconds
+2026-03-18 17:28:46,823 [MARK45.LLM] WARNING: ⚠ Sin LLM disponible. Inicia LM Studio u Ollama.
+2026-03-18 17:28:46,823 [MARK45] INFO: ✓ LLM Engine (ninguno)
+2026-03-18 17:28:46,829 [MARK45.Memory] INFO: ✓ Memoria cargada — 12 entradas en historial
+2026-03-18 17:28:46,829 [MARK45] INFO: ✓ Memoria persistente
+2026-03-18 17:28:46,851 [MARK45.Monitor] INFO: ✓ psutil disponible
+2026-03-18 17:28:46,865 [MARK45] INFO: ✓ Monitor del sistema
+2026-03-18 17:28:47,093 [MARK45.Voice] INFO: ✓ Edge TTS disponible (es-ES-AlvaroNeural)
+2026-03-18 17:28:47,124 [MARK45.Voice] INFO: ✓ STT disponible (speech_recognition)
+2026-03-18 17:28:47,125 [MARK45.Voice] INFO: VoiceSystem listo — TTS: edge-tts | STT: ✓
+2026-03-18 17:28:47,125 [MARK45] INFO: ✓ Sistema de voz
+2026-03-18 17:28:47,137 [MARK45.HeuristicBrain] INFO: ✓ Heuristic Brain cargado (36 patrones regex, 150 sinónimos)
+2026-03-18 17:28:47,137 [MARK45] INFO: ✓ IntentEngine (LLM + rapidfuzz)
+2026-03-18 17:28:47,139 [MARK45] INFO: ✓ Dispatcher
+2026-03-18 17:28:47,139 [MARK45.Voice] INFO: 🎙 Wake word daemon activo — escuchando 'Jarvis'
+2026-03-18 17:28:47,139 [MARK45] INFO: ✓ Wake word daemon (Jarvis)
+2026-03-18 17:28:47,140 [MARK45] INFO: ------------------------------------------------------------
+2026-03-18 17:28:47,140 [MARK45] INFO:   Usuario:  Señor (Creador)
+2026-03-18 17:28:47,140 [MARK45] INFO:   LLM:      ninguno
+2026-03-18 17:28:47,140 [MARK45] INFO:   Voz TTS:  ✓ edge-tts
+2026-03-18 17:28:47,140 [MARK45] INFO:   Voz STT:  ✓
+2026-03-18 17:28:47,140 [MARK45] INFO:   WakeWord: ✓ Jarvis
+2026-03-18 17:28:47,140 [MARK45] INFO:   Monitor:  ✓
+2026-03-18 17:28:47,141 [MARK45] INFO: ------------------------------------------------------------
+2026-03-18 17:28:47,142 [MARK45.GUI] INFO: Iniciando interfaz gráfica...
+2026-03-18 17:29:09,309 [MARK45.Voice] INFO: Wake word daemon desactivado.
+2026-03-18 17:29:12,709 [MARK45.Voice] INFO: Wake word daemon activado.
+2026-03-18 17:29:30,033 [MARK45.Voice] INFO: ✓ Wake word detectado: 'jarvis'
+2026-03-18 17:29:42,765 [MARK45.Voice] INFO: ✓ Wake word detectado: 'jarvis'
+2026-03-18 17:29:47,723 [MARK45.Voice] INFO: Wake word daemon desactivado.
+2026-03-18 17:31:04,824 [MARK45] INFO: CMD: 'apagate'
+2026-03-18 17:31:04,940 [MARK45] WARNING: Servidores de IA desconectados. Operando en modo táctico heurístico.
+2026-03-18 17:31:04,972 [MARK45.Intent] INFO: Intent [Brain]: mark.stop (88%) params={}
+2026-03-18 17:31:04,977 [MARK45] INFO: Intent: mark.stop (88%) — apagate
+2026-03-18 17:31:08,206 [MARK45.Voice] INFO: Wake word daemon detenido.
+2026-03-18 17:31:19,852 [MARK45.Main] INFO: ============================================================
+2026-03-18 17:31:19,852 [MARK45.Main] INFO:   MARK 45 — Hive Kernel — Iniciando
+2026-03-18 17:31:19,853 [MARK45.Main] INFO:   Ryzen 7 5800X | 32GB | RTX 4060 Ti 8GB | Win11
+2026-03-18 17:31:19,853 [MARK45.Main] INFO:   Creado por Ali (Sidi3Ali)
+2026-03-18 17:31:19,853 [MARK45.Main] INFO: ============================================================
+2026-03-18 17:31:20,288 [MARK45.Web] INFO: Iniciando Orchestrator (modo headless)...
+2026-03-18 17:31:20,299 [MARK45] INFO: ============================================================
+2026-03-18 17:31:20,300 [MARK45] INFO:   M A R K  4 5  — Hive Kernel
+2026-03-18 17:31:20,300 [MARK45] INFO:   Creado por Ali (Sidi3Ali)
+2026-03-18 17:31:20,300 [MARK45] INFO:   HW: Ryzen 7 5800X | 32GB | RTX 4060 Ti 8GB | Win11
+2026-03-18 17:31:20,301 [MARK45] INFO: ============================================================
+2026-03-18 17:31:25,720 [openai._base_client] INFO: Retrying request to /models in 0.397472 seconds
+2026-03-18 17:31:30,186 [openai._base_client] INFO: Retrying request to /models in 0.805892 seconds
+2026-03-18 17:31:39,229 [MARK45.LLM] WARNING: ⚠ Sin LLM disponible. Inicia LM Studio u Ollama.
+2026-03-18 17:31:39,230 [MARK45] INFO: ✓ LLM Engine (ninguno)
+2026-03-18 17:31:39,233 [MARK45.Memory] INFO: ✓ Memoria cargada — 14 entradas en historial
+2026-03-18 17:31:39,234 [MARK45] INFO: ✓ Memoria persistente
+2026-03-18 17:31:39,255 [MARK45.Monitor] INFO: ✓ psutil disponible
+2026-03-18 17:31:39,265 [MARK45] INFO: ✓ Monitor del sistema
+2026-03-18 17:31:39,435 [MARK45.Voice] INFO: ✓ Edge TTS disponible (es-ES-AlvaroNeural)
+2026-03-18 17:31:39,455 [MARK45.Voice] INFO: ✓ STT disponible (speech_recognition)
+2026-03-18 17:31:39,456 [MARK45.Voice] INFO: VoiceSystem listo — TTS: edge-tts | STT: ✓
+2026-03-18 17:31:39,456 [MARK45] INFO: ✓ Sistema de voz
+2026-03-18 17:31:39,464 [MARK45.HeuristicBrain] INFO: ✓ Heuristic Brain cargado (36 patrones regex, 150 sinónimos)
+2026-03-18 17:31:39,464 [MARK45] INFO: ✓ IntentEngine (LLM + rapidfuzz)
+2026-03-18 17:31:39,466 [MARK45] INFO: ✓ Dispatcher
+2026-03-18 17:31:39,467 [MARK45.Voice] INFO: 🎙 Wake word daemon activo — escuchando 'Jarvis'
+2026-03-18 17:31:39,467 [MARK45] INFO: ✓ Wake word daemon (Jarvis)
+2026-03-18 17:31:39,467 [MARK45] INFO: ------------------------------------------------------------
+2026-03-18 17:31:39,467 [MARK45] INFO:   Usuario:  Señor (Creador)
+2026-03-18 17:31:39,467 [MARK45] INFO:   LLM:      ninguno
+2026-03-18 17:31:39,468 [MARK45] INFO:   Voz TTS:  ✓ edge-tts
+2026-03-18 17:31:39,468 [MARK45] INFO:   Voz STT:  ✓
+2026-03-18 17:31:39,468 [MARK45] INFO:   WakeWord: ✓ Jarvis
+2026-03-18 17:31:39,468 [MARK45] INFO:   Monitor:  ✓
+2026-03-18 17:31:39,468 [MARK45] INFO: ------------------------------------------------------------
+2026-03-18 17:31:39,471 [MARK45.Web] INFO: 🚀 Hive Kernel + API arrancando...
+2026-03-18 17:31:42,145 [MARK45.API] INFO: MARK 45 API activa en http://127.0.0.1:8765
+2026-03-18 17:31:42,148 [MARK45.API] INFO:   WebSocket: ws://127.0.0.1:8765/ws/eventos
+2026-03-18 17:31:42,149 [MARK45.API] INFO:   Estado:    http://127.0.0.1:8765/estado
+2026-03-18 17:31:42,235 [MARK45.API] INFO: MARK 45 API arrancada — event bus drain activo
+2026-03-18 17:31:42,238 [MARK45.API] INFO: Event bus drain activo

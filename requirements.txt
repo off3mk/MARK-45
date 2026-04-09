@@ -1,0 +1,48 @@
+# MARK-45 — Dependencias
+# Instala con: pip install -r requirements.txt
+
+# ── CORE ──────────────────────────────────────────────────────────────────────
+openai>=1.0.0          # Cliente LM Studio (OpenAI-compatible)
+requests>=2.31.0       # HTTP para Ollama API
+
+# ── INTELIGENCIA ──────────────────────────────────────────────────────────────
+rapidfuzz>=3.5.0       # Coincidencia difusa para fallback de intenciones
+g4f[all]>=0.2.7.0      # GPT4Free API para Cloud Fallback Nivel 3
+
+# ── API WEB (Modo --web para Pencil.dev) ──────────────────────────────────────
+fastapi>=0.110.0        # API REST + WebSocket (modo --web)
+uvicorn[standard]>=0.27.0  # ASGI server para FastAPI
+websockets>=12.0        # WebSocket support para uvicorn
+
+# ── TTS / STT ─────────────────────────────────────────────────────────────────
+edge-tts>=6.1.9        # Voz es-ES-AlvaroNeural (PRINCIPAL)
+pygame>=2.5.0          # Reproducción MP3 de edge-tts
+SpeechRecognition>=3.10.0  # STT (Google es-ES)
+pyaudio>=0.2.13        # Micrófono para STT
+
+# ── SISTEMA ───────────────────────────────────────────────────────────────────
+psutil>=5.9.0          # CPU / RAM / procesos
+pynvml>=11.5.0         # VRAM monitoring (NVIDIA)
+
+# ── CONTROL DE PC ─────────────────────────────────────────────────────────────
+pyautogui>=0.9.54      # Teclas multimedia, hotkeys
+keyboard>=0.13.5       # Hotkeys globales
+
+# ── PANTALLA / VISIÓN ─────────────────────────────────────────────────────────
+mss>=9.0.1             # Captura de pantalla
+Pillow>=10.0.0         # Procesado de imágenes
+
+# ── SPOTIFY ───────────────────────────────────────────────────────────────────
+spotipy>=2.23.0        # Spotify Web API (opcional)
+
+# ── VOLUMEN WINDOWS ───────────────────────────────────────────────────────────
+pycaw>=20221227        # Control de volumen (Windows, opcional)
+comtypes>=1.2.0        # Requerido por pycaw en Windows
+
+# ── TTS FALLBACK ──────────────────────────────────────────────────────────────
+pyttsx3>=2.90          # TTS offline fallback
+
+# ── ARCHIVOS ──────────────────────────────────────────────────────────────────
+# python-docx>=1.0.0   # Lectura de Word (opcional)
+# PyPDF2>=3.0.0        # Lectura de PDF (opcional)
+# pytesseract>=0.3.10  # OCR (opcional, requiere Tesseract instalado)

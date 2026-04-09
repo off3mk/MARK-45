@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MARK 45 — Stark HUD | J.A.R.V.I.S.</title>
+  <meta name="description" content="MARK 45 Hive Kernel — Panel de control HUD estilo Stark Industries">
+  <link rel="stylesheet" href="hud.css">
+</head>
+<body class="state-offline">
+
+<!-- ══ HEADER ══════════════════════════════════════════════════════ -->
+<header class="hud-header">
+  <div class="header-brand">
+    <div class="header-title">J.A.R.V.I.S.</div>
+    <div class="header-sub">MARK 45 — HIVE KERNEL · STARK INDUSTRIES</div>
+  </div>
+  <div class="header-right">
+    <div class="hud-indicator">
+      <span class="hud-dot" id="ws-dot"></span>
+      <span id="ws-label">INICIANDO</span>
+    </div>
+    <div class="hud-indicator">
+      <span style="color:var(--text-muted);font-size:0.6rem;letter-spacing:1px">LLM</span>
+      <span id="llm-label" style="color:var(--text-primary);font-size:0.68rem">---</span>
+    </div>
+    <span class="hud-state-badge" id="state-badge">○ OFFLINE</span>
+    <span class="hud-clock" id="hud-clock">--:--:--</span>
+  </div>
+</header>
+
+<!-- ══ MAIN ════════════════════════════════════════════════════════ -->
+<div class="hud-main">
+
+  <!-- ── COL 1: REACTOR ─────────────────────────────────────────── -->
+  <div class="hud-panel reactor-panel">
+    <div class="panel-header">◈ &nbsp;ARC REACTOR</div>
+    <div class="corner tl"></div><div class="corner tr"></div>
+    <div class="corner bl"></div><div class="corner br"></div>
+
+    <!-- SVG Reactor animado -->
+    <div class="reactor-wrap">
+      <svg id="reactor-svg" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <!-- Gradiente núcleo -->
+          <radialGradient id="coreGrad" cx="50%" cy="50%" r="50%">
+            <stop offset="0%"   stop-color="#00e5ff" stop-opacity="1"/>
+            <stop offset="60%"  stop-color="#0040a0" stop-opacity="0.9"/>
+            <stop offset="100%" stop-color="#000820" stop-opacity="0.8"/>
+          </radialGradient>
+          <!-- Glow filter -->
+          <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+            <feGaussianBlur stdDeviation="3" result="blur"/>
+            <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+          </filter>
+          <filter id="glow-soft" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur stdDeviation="6" result="blur"/>
+            <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+          </filter>
+        </defs>
+
+        <!-- Fondo oscuro -->
+        <circle cx="100" cy="100" r="98" fill="#02060f" stroke="#0a2040" stroke-width="1"/>
+
+        <!-- Anillo exterior (gira horario, lento) -->
+        <g class="ring-outer" filter="url(#glow)">
+          <!-- Arco principal segmentado -->
+          <circle cx="100" cy="100" r="88"
+                  fill="none" stroke="#00e5ff" stroke-width="1.5"
+                  stroke-dasharray="12 8" stroke-linecap="round"/>
+          <!-- Marcadores de posición -->
+          <circle cx="100" cy="12"  r="3" fill="#00e5ff" opacity="0.8"/>
+          <circle cx="188" cy="100" r="3" fill="#00e5ff" opacity="0.8"/>
+          <circle cx="100" cy="188" r="3" fill="#00e5ff" opacity="0.8"/>
+          <circle cx="12"  cy="100" r="3" fill="#00e5ff" opacity="0.8"/>
+        </g>
+
+        <!-- Anillo medio (gira antihorario) -->
+        <g class="ring-mid" filter="url(#glow)">
+          <circle cx="100" cy="100" r="70"
+                  fill="none" stroke="#00e5ff" stroke-width="2"
+                  stroke-dasharray="25 12" stroke-linecap="round"/>
+          <!-- Triángulo de refuerzo -->
+          <polygon points="100,34 157.4,135 42.6,135"
+                   fill="none" stroke="#00e5ff" stroke-width="1"
+                   stroke-opacity="0.4"/>
+        </g>
+
+        <!-- Anillo interior (gira horario, rápido) -->
+        <g class="ring-inner" filter="url(#glow)">
+          <circle cx="100" cy="100" r="52"
+                  fill="none" stroke="#00e5ff" stroke-width="2.5"
+                  stroke-dasharray="8 6" stroke-linecap="round"/>
+          <!-- Segmentos interiores (6) -->
+          <line x1="100" y1="48" x2="100" y2="60" stroke="#00e5ff" stroke-width="2" stroke-opacity="0.7"/>
+          <line x1="100" y1="140" x2="100" y2="152" stroke="#00e5ff" stroke-width="2" stroke-opacity="0.7"/>
+          <line x1="148" y1="100" x2="160" y2="100" stroke="#00e5ff" stroke-width="2" stroke-opacity="0.7"/>
+          <line x1="40"  y1="100" x2="52"  y2="100" stroke="#00e5ff" stroke-width="2" stroke-opacity="0.7"/>
+          <line x1="138" y1="62" x2="146" y2="54" stroke="#00e5ff" stroke-width="2" stroke-opacity="0.7"/>
+          <line x1="54"  y1="146" x2="62" y2="138" stroke="#00e5ff" stroke-width="2" stroke-opacity="0.7"/>
+        </g>
+
+        <!-- Núcleo pulsante (glow suave) -->
+        <g filter="url(#glow-soft)">
+          <circle cx="100" cy="100" r="34" fill="#001840" stroke="#00e5ff" stroke-width="2"/>
+        </g>
+
+        <!-- Núcleo principal -->
+        <circle class="reactor-core" cx="100" cy="100" r="30"
+                fill="url(#coreGrad)"
+                filter="url(#glow)"/>
+
+        <!-- Núcleo interior brillante -->
+        <circle class="reactor-core-inner" cx="100" cy="100" r="14"
+                fill="#00e5ff" opacity="0.35"
+                filter="url(#glow)"/>
+
+        <!-- Estrella central -->
+        <g filter="url(#glow)" opacity="0.9">
+          <line x1="100" y1="82" x2="100" y2="118" stroke="#ffffff" stroke-width="2.5"/>
+          <line x1="82"  y1="100" x2="118" y2="100" stroke="#ffffff" stroke-width="2.5"/>
+          <line x1="88"  y1="88"  x2="112" y2="112" stroke="#ffffff" stroke-width="1.5" opacity="0.6"/>
+          <line x1="112" y1="88"  x2="88"  y2="112" stroke="#ffffff" stroke-width="1.5" opacity="0.6"/>
+        </g>
+      </svg>
+    </div>
+
+    <!-- Info bajo el reactor -->
+    <div class="reactor-info">
+      <div class="info-row">
+        <span class="info-label">USUARIO</span>
+        <span class="info-value" id="user-label">SEÑOR</span>
+      </div>
+      <div class="info-row">
+        <span class="info-label">MODO</span>
+        <span class="info-value" id="mode-label">NOMINAL</span>
+      </div>
+      <div class="info-row">
+        <span class="info-label">UPTIME</span>
+        <span class="info-value" id="uptime-label">00:00:00</span>
+      </div>
+      <div class="info-row">
+        <span class="info-label">GAMING</span>
+        <span class="info-value" id="gaming-label">OFF</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── COL 2: CHAT ─────────────────────────────────────────────── -->
+  <div class="hud-panel chat-panel">
+    <div class="panel-header">◈ &nbsp;INTERFAZ DE COMUNICACIÓN</div>
+    <div class="corner tl"></div><div class="corner tr"></div>
+    <div class="corner bl"></div><div class="corner br"></div>
+
+    <div id="chat-messages"></div>
+
+    <div class="cmd-row">
+      <span class="cmd-prompt" id="cmd-prefix">SEÑOR ›</span>
+      <input id="cmd-input" type="text"
+             placeholder="Escribe un comando en español..."
+             autocomplete="off" spellcheck="false"/>
+      <button id="send-btn" class="cmd-send">ENVIAR</button>
+    </div>
+  </div>
+
+  <!-- ── COL 3: SISTEMA ──────────────────────────────────────────── -->
+  <div class="hud-panel stats-panel">
+    <div class="panel-header">◈ &nbsp;TELEMETRÍA DEL SISTEMA</div>
+    <div class="corner tl"></div><div class="corner tr"></div>
+    <div class="corner bl"></div><div class="corner br"></div>
+
+    <!-- CPU -->
+    <div class="stat-group">
+      <div class="stat-label">PROCESADOR — RYZEN 7 5800X</div>
+      <div class="stat-value" id="cpu-val">0.0%</div>
+      <div class="bar-track"><div class="bar-fill" id="cpu-bar" style="width:0%"></div></div>
+    </div>
+
+    <!-- RAM -->
+    <div class="stat-group">
+      <div class="stat-label">MEMORIA RAM — 32 GB DDR4</div>
+      <div class="stat-value" id="ram-val">0/32 GB</div>
+      <div class="bar-track"><div class="bar-fill" id="ram-bar" style="width:0%"></div></div>
+    </div>
+
+    <!-- VRAM -->
+    <div class="stat-group">
+      <div class="stat-label">VRAM — RTX 4060 Ti 8 GB</div>
+      <div class="stat-value" id="vram-val">0 / 8192 MB</div>
+      <div class="bar-track"><div class="bar-fill" id="vram-bar" style="width:0%"></div></div>
+    </div>
+
+    <!-- Disco -->
+    <div class="stat-group">
+      <div class="stat-label">ALMACENAMIENTO</div>
+      <div class="stat-value" id="disk-val">0%</div>
+      <div class="bar-track"><div class="bar-fill" id="disk-bar" style="width:0%"></div></div>
+    </div>
+
+    <!-- Gaming badge -->
+    <div id="gaming-badge">🎮 &nbsp;GAMING MODE ACTIVO</div>
+
+    <!-- Logs -->
+    <div class="log-panel">
+      <div class="panel-header" style="border-top:1px solid var(--border-dim);">◈ &nbsp;KERNEL LOGS</div>
+      <div id="log-area"></div>
+    </div>
+  </div>
+
+</div>
+
+<!-- ══ FOOTER ══════════════════════════════════════════════════════ -->
+<footer class="hud-footer">
+  <div class="footer-left">
+    <span id="footer-status">Iniciando MARK 45 Hive Kernel...</span>
+  </div>
+  <span>MARK 45 · localhost:8765 · Ali (Sidi3Ali)</span>
+</footer>
+
+<!-- ── UPTIME COUNTER ──────────────────────────────────────────── -->
+<script>
+  (() => {
+    const start = Date.now();
+    function pad(n) { return String(n).padStart(2, '0'); }
+    setInterval(() => {
+      const s = Math.floor((Date.now() - start) / 1000);
+      const h = Math.floor(s / 3600);
+      const m = Math.floor((s % 3600) / 60);
+      const sec = s % 60;
+      const el = document.getElementById('uptime-label');
+      if (el) el.textContent = `${pad(h)}:${pad(m)}:${pad(sec)}`;
+    }, 1000);
+  })();
+</script>
+
+<script src="hud.js"></script>
+</body>
+</html>

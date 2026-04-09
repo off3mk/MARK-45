@@ -1,0 +1,227 @@
+[
+  {
+    "role": "user",
+    "text": "hola",
+    "timestamp": "2026-03-18T11:13:28.387138"
+  },
+  {
+    "role": "mark",
+    "text": "LLM no disponible. Inicia LM Studio u Ollama, Señor.",
+    "timestamp": "2026-03-18T11:13:29.077979"
+  },
+  {
+    "role": "user",
+    "text": "GET http://localhost:8765/estado",
+    "timestamp": "2026-03-18T11:13:49.907715"
+  },
+  {
+    "role": "mark",
+    "text": "LLM no disponible. Inicia LM Studio u Ollama, Señor.",
+    "timestamp": "2026-03-18T11:13:49.912232"
+  },
+  {
+    "role": "user",
+    "text": "apagate",
+    "timestamp": "2026-03-18T11:28:28.869836"
+  },
+  {
+    "role": "mark",
+    "text": "Hasta luego, Señor. MARK 45 desconectándose.",
+    "timestamp": "2026-03-18T11:28:28.893148"
+  },
+  {
+    "role": "user",
+    "text": "hola",
+    "timestamp": "2026-03-18T11:44:47.952479"
+  },
+  {
+    "role": "mark",
+    "text": "LLM no disponible. Inicia LM Studio u Ollama, Señor.",
+    "timestamp": "2026-03-18T11:44:48.125321"
+  },
+  {
+    "role": "user",
+    "text": "que tal",
+    "timestamp": "2026-03-18T11:45:07.165530"
+  },
+  {
+    "role": "mark",
+    "text": "LLM no disponible. Inicia LM Studio u Ollama, Señor.",
+    "timestamp": "2026-03-18T11:45:07.178174"
+  },
+  {
+    "role": "user",
+    "text": "apagat",
+    "timestamp": "2026-03-18T12:07:08.188289"
+  },
+  {
+    "role": "mark",
+    "text": "Hasta luego, Señor. MARK 45 desconectándose.",
+    "timestamp": "2026-03-18T12:07:08.309728"
+  },
+  {
+    "role": "user",
+    "text": "apagate",
+    "timestamp": "2026-03-18T17:31:04.863008"
+  },
+  {
+    "role": "mark",
+    "text": "Hasta luego, Señor. MARK 45 desconectándose.",
+    "timestamp": "2026-03-18T17:31:04.978623"
+  },
+  {
+    "role": "user",
+    "text": "hola",
+    "timestamp": "2026-03-19T09:50:17.991970"
+  },
+  {
+    "role": "user",
+    "text": "abre chrome",
+    "timestamp": "2026-03-19T09:54:25.511586"
+  },
+  {
+    "role": "mark",
+    "text": "Abriendo abre chrome...",
+    "timestamp": "2026-03-19T09:54:36.890815"
+  },
+  {
+    "role": "user",
+    "text": "que noticias tenemos del barça",
+    "timestamp": "2026-03-19T09:55:18.286185"
+  },
+  {
+    "role": "mark",
+    "text": "Buscando 'noticias del Barça' en Google.",
+    "timestamp": "2026-03-19T09:55:30.461805"
+  },
+  {
+    "role": "user",
+    "text": "que noticias tenemos del barça",
+    "timestamp": "2026-03-19T09:55:57.879755"
+  },
+  {
+    "role": "mark",
+    "text": "Buscando 'noticias del Barça' en Google.",
+    "timestamp": "2026-03-19T09:55:57.983751"
+  },
+  {
+    "role": "user",
+    "text": "Lee y analiza este archivo: C:/Users/AliBouallalaSafyoun/Downloads/P03_Bouallala.py",
+    "timestamp": "2026-03-19T09:56:25.135720"
+  },
+  {
+    "role": "mark",
+    "text": "¡Hola! Estoy listo para ayudarte a leer y analizar el archivo `P03_Bouallala.py`. Por favor, comparte conmigo qué parte del código deseas que lea primero o si tienes cualquier información adicional sobre este script que me gustaría considerar.",
+    "timestamp": "2026-03-19T09:56:53.430566"
+  },
+  {
+    "role": "user",
+    "text": "que hace este archivo?",
+    "timestamp": "2026-03-19T09:57:22.505287"
+  },
+  {
+    "role": "mark",
+    "text": "¿Qué archivo quieres que lea? Dime la ruta o el nombre, Señor.",
+    "timestamp": "2026-03-19T09:58:04.971137"
+  },
+  {
+    "role": "user",
+    "text": "Archivo: P03_Bouallala.py",
+    "timestamp": "2026-03-19T09:58:30.270418"
+  },
+  {
+    "role": "mark",
+    "text": "¿Qué archivo quieres que lea? Dime la ruta o el nombre, Señor.",
+    "timestamp": "2026-03-19T09:58:43.906210"
+  },
+  {
+    "role": "user",
+    "text": "apagate",
+    "timestamp": "2026-03-19T09:59:38.925288"
+  },
+  {
+    "role": "mark",
+    "text": "¿Confirmas que quieres apagar el PC? Di 'sí, apaga el PC' para confirmar.",
+    "timestamp": "2026-03-19T09:59:48.773630"
+  },
+  {
+    "role": "user",
+    "text": "no, quiero que te apagues tu",
+    "timestamp": "2026-03-19T10:00:06.587736"
+  },
+  {
+    "role": "mark",
+    "text": "¿Confirmas que quieres apagar el PC? Di 'sí, apaga el PC' para confirmar.",
+    "timestamp": "2026-03-19T10:00:16.343442"
+  },
+  {
+    "role": "user",
+    "text": "sí, apaga el PC",
+    "timestamp": "2026-03-19T10:00:40.466334"
+  },
+  {
+    "role": "mark",
+    "text": "¿Confirmas que quieres apagar el PC? Di 'sí, apaga el PC' para confirmar.",
+    "timestamp": "2026-03-19T10:00:50.424326"
+  },
+  {
+    "role": "user",
+    "text": "sí, apaga el PC",
+    "timestamp": "2026-03-19T10:01:02.435935"
+  },
+  {
+    "role": "mark",
+    "text": "¿Confirmas que quieres apagar el PC? Di 'sí, apaga el PC' para confirmar.",
+    "timestamp": "2026-03-19T10:01:02.439976"
+  },
+  {
+    "role": "user",
+    "text": "sí, apaga el PC",
+    "timestamp": "2026-03-19T10:01:09.463609"
+  },
+  {
+    "role": "mark",
+    "text": "¿Confirmas que quieres apagar el PC? Di 'sí, apaga el PC' para confirmar.",
+    "timestamp": "2026-03-19T10:01:09.465932"
+  },
+  {
+    "role": "user",
+    "text": "abre google",
+    "timestamp": "2026-03-19T10:21:50.672905"
+  },
+  {
+    "role": "mark",
+    "text": "Abriendo https://google.com",
+    "timestamp": "2026-03-19T10:22:01.694703"
+  },
+  {
+    "role": "user",
+    "text": "por cierto considera cerrar",
+    "timestamp": "2026-03-19T10:23:49.160199"
+  },
+  {
+    "role": "mark",
+    "text": "¿Confirmas que quieres apagar el PC? Di 'sí, apaga el PC' para confirmar.",
+    "timestamp": "2026-03-19T10:23:56.877646"
+  },
+  {
+    "role": "user",
+    "text": "apagate",
+    "timestamp": "2026-03-19T10:27:49.277993"
+  },
+  {
+    "role": "mark",
+    "text": "Hasta luego, Señor. MARK 45 desconectándose.",
+    "timestamp": "2026-03-19T10:27:49.285282"
+  },
+  {
+    "role": "user",
+    "text": "abre YouTube",
+    "timestamp": "2026-03-19T10:34:31.744318"
+  },
+  {
+    "role": "mark",
+    "text": "Abriendo https://youtube.com",
+    "timestamp": "2026-03-19T10:34:41.778201"
+  }
+]
